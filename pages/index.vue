@@ -1,22 +1,22 @@
 <template>
   <div class="home-page">
     <section class="intro"><h1>Get the latest tech news!</h1></section>
-    <app-post-list :posts="loadedPosts" />
+    <!-- <app-post-list :posts="loadedPosts" /> -->
   </div>
 </template>
 
 <script>
 import { mapGetters } from "vuex";
 
-import PostPreview from "@/components/Posts/PostPreview.vue";
+// import PostPreview from "@/components/Posts/PostPreview.vue";
 
 export default {
-  components: {
-    appPostPreview: PostPreview
-  },
-  computed: {
-    ...mapGetters(["loadedPosts"])
-  }
+  // components: {
+  //   appPostPreview: PostPreview
+  // },
+  // computed: {
+  //   ...mapGetters(["loadedPosts"])
+  // }
 };
 </script>
 
